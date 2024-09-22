@@ -24,7 +24,7 @@ import { motion } from "framer-motion";
 const about = {
   title: "Sobre Mim",
   description:
-    "Profissional experiênte e em costante desenvolvimento. Com mais de 5 anos atuando em grandes projetos, estou trazendo soluções inovadoras e práticas para todo tipo de negócio.",
+    "Profissional experiente e em constante evolução, com mais de 5 anos de atuação em grandes projetos, sou especialista em oferecer soluções inovadoras e práticas que impulsionam negócios de todos os portes. Minha trajetória é marcada pela entrega de resultados significativos, sempre alinhando criatividade e eficiência para enfrentar desafios complexos e transformar oportunidades em sucesso. Estou comprometido em gerar valor e impactar positivamente cada projeto em que me envolvo.",
   info: [
     {
       fieldName: "Nome",
@@ -32,28 +32,23 @@ const about = {
     },
     {
       fieldName: "Telefone:",
-      fieldValue: "(+5581)98748-2058",
+      fieldValue: "(+55) 81 9 8748-2058",
     },
     {
       fieldName: "Experiência",
-      fieldValue: "5+ Anos",
+      fieldValue: "+5 Anos",
     },
     {
       fieldName: "Skype",
       fieldValue: "luizhenriquechaves_2",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Disponivél",
+      fieldName: "Indiomas",
+      fieldValue: "Português, Inglês",
     },
     {
       fieldName: "Email",
       fieldValue: "Henriquewebdev95@gmail.com",
-    },
-
-    {
-      fieldName: "Indiomas",
-      fieldValue: "Português, Inglês",
     },
   ],
 };
@@ -62,7 +57,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "Minha Experiência",
   description:
-    "Desenvolvi diversos tipos de sistemas incluindo nas areas de de logistica de entrega e operação, análise de percepção, pesquisa e  E-commerce. ",
+    "Desenvolvi diversos tipos de sistemas nas áreas de logística de entrega e operações, análise de percepção, pesquisa e e-commerce.",
   items: [
     {
       company: "Novo Atacarejo",
@@ -70,19 +65,20 @@ const experience = {
       duration: "06/2022 - 09/2024",
     },
     {
+      company: "DeepScore",
+      position: "Desenvolvedor Front-End",
+      duration: "03/2024 - 07/2024",
+    },
+    {
       company: "Wisell",
       position: "Desenvolvedor React/React-native",
       duration: "2022 - 2024",
     },
+
     {
-      company: "DeepScore",
-      position: "Engenheiro de software",
-      duration: "03/2024 - 07/2024",
-    },
-    {
-      company: "Operaco",
+      company: "Opera Labs",
       position: "Desenvolvedor web",
-      duration: "2021 - 2022",
+      duration: "2020 - 2021",
     },
 
     {
@@ -97,7 +93,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "Minha Foramção",
   description:
-    "Cursos e capacitações além de projetos pessoais e muito código para estar sempre praticando e atento as tendências e novidades no mundo da tecnólogia.",
+    "Estou constantemente investindo em minha formação por meio de cursos e capacitações, além de me dedicar a projetos pessoais e à prática intensiva de programação. Essa busca incessante pelo conhecimento me mantém na vanguarda das tendências e inovações no universo da tecnologia, garantindo que eu esteja sempre preparado para enfrentar novos desafios.",
   items: [
     {
       instituition: "UNOPAR",
@@ -145,13 +141,18 @@ const education = {
       degree: "TypeScript",
       duration: "2022",
     },
+    {
+      instituition: "",
+      degree: "Entre Outros ... 📚",
+      duration: "",
+    },
   ],
 };
 
 const skills = {
   title: "Principais Tecnólogias",
   description:
-    "Principais tecnólogias utilizadas ao longo da minha jornada como desenvolvedor, realizei diversos projetos práticos e eficientes. ",
+    "Principais tecnólogias utilizadas ao longo da minha jornada como desenvolvedor, nas quais realizei diversos projetos práticos e eficientes. ",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -330,7 +331,7 @@ const Resume = () => {
                         className="flex items-center justify-center xl:justify-start gap-4"
                       >
                         <span className="text-white/60">{item.fieldName}</span>
-                        <span className="text-xl gap-6">{item.fieldValue}</span>
+                        <span className="gap-4 ">{item.fieldValue}</span>
                       </li>
                     );
                   })}

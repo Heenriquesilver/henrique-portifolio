@@ -24,3 +24,13 @@
 .text-outline-hover {
   -webkit-text-stroke: 1px #00ff99;
 }
+
+.light {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark {
+  --background-color: #000000;
+  --text-color: #ffffff;
+}

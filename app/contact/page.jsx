@@ -30,7 +30,7 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Telefone",
-    description: "(+5581) 98748-2058",
+    description: "(+55) 81 98748-2058",
   },
   {
     icon: <FaEnvelope />,
@@ -63,13 +63,8 @@ const Contact = () => {
               method="POST"
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >
-              <h3 className="text-4xl text-accent-hover">
-                Vamos Trabalhar Juntos
-              </h3>
-              <p className="text-white/60">
-                Entre em contato e vamos conversar sobre suas ideias e projetos,
-                para melhor atende-lo.
-              </p>
+              <h3 className="text-4xl text-accent-hover">Fale Comigo</h3>
+              <p className="text-white/60"></p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <input

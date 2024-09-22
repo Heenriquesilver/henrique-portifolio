@@ -23,7 +23,7 @@ const Photo = () => {
           className="relative w-full h-full flex justify-center items-center"
         >
           <Image
-            src="/assets/foto.png"
+            src="/assets/ft-pt.png"
             priority
             quality={100}
             fill

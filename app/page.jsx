@@ -9,7 +9,7 @@ import { FiDownload } from "react-icons/fi";
 const Home = () => {
   const downloadFile = () => {
     const link = document.createElement("a");
-    link.href = "/assets/file/curriculo-current.pdf"; // Substitua pelo caminho real do seu PDF
+    link.href = "/assets/file/curriculo-3.pdf"; // Substitua pelo caminho real do seu PDF
     link.download = "curriculo-current.pdf"; // Nome do arquivo que será salvo
     document.body.appendChild(link);
     link.click();
