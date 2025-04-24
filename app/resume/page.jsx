@@ -43,7 +43,7 @@ const about = {
       fieldValue: "luizhenriquechaves_2",
     },
     {
-      fieldName: "Indiomas",
+      fieldName: "Idiomas",
       fieldValue: "Português, Inglês",
     },
     {
