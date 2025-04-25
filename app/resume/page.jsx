@@ -91,7 +91,7 @@ const experience = {
 
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "Minha Foramção",
+  title: "Minha Formação",
   description:
     "Estou constantemente investindo em minha formação por meio de cursos e capacitações, além de me dedicar a projetos pessoais e à prática intensiva de programação. Essa busca incessante pelo conhecimento me mantém na vanguarda das tendências e inovações no universo da tecnologia, garantindo que eu esteja sempre preparado para enfrentar novos desafios.",
   items: [
